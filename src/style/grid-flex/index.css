@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "aside header"
+    "aside main"
+    "aside player";
+    grid-template-columns: auto 1fr;
+}
+
+.cabecalho {
+    grid-area: header;
+}
+
+.menu-lateral {
+    grid-area: aside;
+}
+
+.principal {
+    grid-area: main;
+}
+
+.secao-player {
+    grid-area: player;
+}
