@@ -12,31 +12,42 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-Podcast platform where you can find the podcasts you like and listen to them as well. It contains a list of options on the left with some possible features for users, as well as a player below for controlling what is being listened to, and also key information in the center such as recently listened to and recommended for platform users.
+Wavecast is a web-based music and podcast player designed to simulate the Spotify experience. This project was developed using HTML and CSS, featuring a sleek and modern interface that caters to music and podcast enthusiasts. With a focus on usability and aesthetics, Wavecast offers an intuitive navigation system through a side menu and showcases various media content through scrollable sections.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: Creation of two content blocks, a sidebar with additional information and platform features, and a second block with main content.
-- `Feature 2`: Responsive page, adapting content for different screen sizes.
-- `Feature 3`: Implemented scrolling option for main content to improve navigation of available options, especially on smaller screens, being able to decrease it without affecting the navigation of existing options.
-- `Feature 4`: Creation of a player at the bottom of the page for controlling what is currently being listened to.
+- **Side Navigation Menu**: Includes the Wavecast logo at the top followed by links for Home, Search, and Your Library. There are additional options for creating playlists and accessing saved podcasts.
+- **Recently Played Section**: Displays cards of recently played tracks or podcasts, allowing users to quickly revisit their last sessions.
+- **Podcast Specific Sections**:
+  - **Hipsters Ponto Tech**: Dedicated to the Hipsters Ponto Tech podcast, this section features a horizontal scrollbar to navigate through episodes.
+  - **Dev sem Fronteiras**: Similar to the Hipsters section but for the Dev sem Fronteiras podcast.
+  - **Recommended for You**: Suggests a variety of podcasts based on the user’s listening history, implemented with the same horizontal scrolling functionality.
+- **Media Player Simulation**: At the bottom of the page, a fixed media player interface simulates playing media, complete with album art, podcast details, playback controls, and a volume slider.
+- **Responsive Design**: Ensures the application is fully accessible and functional across all device sizes, providing an optimal experience on both desktops and mobile devices.
+- **Visual Simulation Only**: Currently, the Wavecast project serves as a static prototype, showcasing the design and potential functionality of a fully interactive music and podcast player. Interactive elements such as playback controls and navigation links do not function but are intended for future development.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
-Project requirements:
- - Have your preferred IDE installed on your computer.
 
-Access the project hosted [here](https://wave-cast-wheat.vercel.app) and have fun:
- - Project hosted on Vercel.
- - Easy implementation, [click](https://wave-cast-wheat.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
+### Prerequisites
+- **Integrated Development Environment (IDE)**: An IDE such as Visual Studio Code is recommended for local development, but it's not necessary for accessing the hosted version.
 
-Have the code on your computer:
- - Access the project source code [here](https://github.com/victorhubarb/wave-cast) or download the project [here](https://github.com/victorhubarb/wave-cast/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
+### Online Access
+- **Live Demo**: Experience Wavecast directly through its hosted version on Vercel:
+  - [Visit Wavecast](https://wave-cast-wheat.vercel.app) to explore the interface and simulate the experience of using a music and podcast player without any installation required.
 
-Clone repository with the following steps:
- 1. Open the terminal
- 2. git clone https://github.com/victorhubarb/wave-cast.git
- 3. Press ENTER to create your clone
+### Local Setup
+- **Access and Download the Source Code**:
+  - The source code is available on GitHub. You can view it by visiting the [Wavecast repository](https://github.com/victorhubarb/wave-cast).
+  - To download the project directly, [click here](https://github.com/victorhubarb/wave-cast/archive/refs/heads/main.zip), unzip the file after downloading, and open the project in your IDE.
+
+- **Clone the Repository**:
+  ```bash
+  # Open your terminal
+  git clone https://github.com/victorhubarb/wave-cast.git
+  cd wave-cast
+  
+  # You are now ready to work on the project locally.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technologies Used
